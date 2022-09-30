@@ -15,11 +15,15 @@ header {
 }
 
 .h1-header {
+  margin-top: 25px;
+  margin-bottom: 0;
   font-size: 64px;
   
 }
 
 header p {
+  margin-top: 0;
+  margin-bottom: 15px;
   font-size: 20px;
 }
 
@@ -56,6 +60,11 @@ figure figcaption {
   height: 450px;
 }
 
+.sectioncontainer1 {  
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
 .conteiner1 {
   display: flex;
   justify-content: center;
@@ -66,22 +75,39 @@ figure figcaption {
 }
 
 #subtexto {
+  margin-top: 25px;
+  margin-bottom: 0;
   font-size: 45px;
 }
 
-.conteiner1 p {
+
+.conteiner1 p {  
   font-size: 25px;
 }
 
+.sectioncontainer2 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
 .container2 {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 #subtexto2{
+  margin-top: 15px;
+  margin-bottom: 0;
   font-size: 45px;
 }
 
 .container2 ul {
+  font-size: 25px;
+  margin-top: 0px;
   font-size: 25px;  
 }
 
