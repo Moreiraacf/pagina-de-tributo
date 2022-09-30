@@ -8,17 +8,17 @@ body {
   color: #fff;
 }
 
-header { 
+header {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 .h1-header {
   margin-top: 25px;
   margin-bottom: 0;
   font-size: 64px;
-  
+
 }
 
 header p {
@@ -34,7 +34,7 @@ main {
   justify-content: center;
 }
 
-figure {  
+figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,9 +45,9 @@ figure {
   border-radius: 15px;
 }
 
-figure figcaption { 
+figure figcaption {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   border-radius: 0px 0px 15px 15px;
   background-color: #fff;
   font-size: 20px;
@@ -60,7 +60,7 @@ figure figcaption {
   height: 450px;
 }
 
-.sectioncontainer1 {  
+.sectioncontainer1 {
   margin-top: 0px;
   margin-bottom: 25px;
 }
@@ -81,7 +81,7 @@ figure figcaption {
 }
 
 
-.conteiner1 p {  
+.conteiner1 p {
   font-size: 25px;
 }
 
@@ -99,7 +99,7 @@ figure figcaption {
   max-width: 800px;
 }
 
-#subtexto2{
+#subtexto2 {
   margin-top: 15px;
   margin-bottom: 0;
   font-size: 45px;
@@ -108,7 +108,7 @@ figure figcaption {
 .container2 ul {
   font-size: 25px;
   margin-top: 0px;
-  font-size: 25px;  
+  font-size: 25px;
 }
 
 .container2 ul a:hover {
@@ -123,10 +123,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
-footer p,a{
+footer p,
+a {
   margin: 0;
   padding: 0;
   padding: 10px;
