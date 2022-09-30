@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #999;
+  background-color: #444;
+  font-family: 'Passions Conflict', 'cursive';
+  color: #fff;
 }
 
 header {
@@ -12,28 +14,128 @@ header {
   align-items: center;
 }
 
-header h1 {
-  margin-top: 20px;
-  font-family: 'Roboto Flex', sans-serif;
+.h1-header {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 64px;
+
+}
+
+header p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+figure figcaption {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #fff;
+  font-size: 20px;
+  width: inherit;
+  color: #000;
 }
 
 #img-css {
   width: auto;
+  height: 450px;
 }
 
-figure figcaption {
-  background-color: #fff;
-  font-size: 14px;
-  margin: 0px;
-  width: 474px;
+.sectioncontainer1 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.conteiner1 {
   display: flex;
   justify-content: center;
-  
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
 }
 
+#subtexto {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 45px;
+}
+
+
+.conteiner1 p {
+  font-size: 25px;
+}
+
+.sectioncontainer2 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+#subtexto2 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 45px;
+}
+
+.container2 ul {
+  font-size: 25px;
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.container2 ul a:hover {
+  color: #000;
+}
+
+hr {
+  width: 350px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+footer p,
+a {
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #000;
+}
